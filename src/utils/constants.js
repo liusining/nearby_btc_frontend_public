@@ -1,0 +1,54 @@
+const NEW_ENVELOPE_STAGE = {
+  INACTIVE: 0,
+  INITIALIZING_LOCATION: 1,
+  EDITING: 2,
+};
+const NEW_ENVELOPE_DEFAULT_CONTENT = {
+  coinType: "",
+  amount: 0,
+  people: 0,
+  displayInfo: null,
+  message: "",
+};
+const ENVELOPE_PAYMENT = {
+  PENDING: 0,
+  SUCCEEDED: 1,
+  FAILED: 2,
+};
+
+const ENVELOPE_MAX_SHARES = 100;
+const ENVELOPE_DECIMAL_PLACES_MAX = 8;
+
+const MIXIN_OAUTH_PATH = "https://mixin-www.zeromesh.net/oauth/authorize";
+const MIXIN_PAY_PATH = "https://mixin.one/pay";
+const MIXIN_USER_PATH = "https://mixin.one/users/";
+const MIXIN_CONTEXT_PLATFORM_ANDROID = "Android";
+const MIXIN_COIN_ICON_DEFAULT =
+  "https://mixin-images.zeromesh.net/yH_I5b0GiV2zDmvrXRyr3bK5xusjfy5q7FX3lw3mM2Ryx4Dfuj6Xcw8SHNRnDKm7ZVE3_LvpKlLdcLrlFQUBhds=s128";
+
+const LAST_LOCATION_RECORD_KEY = "llc";
+
+const BOUNDERY_RADIUS_KM = 50;
+
+const MAP_CENTER_ATOMICITY_LEVEL = 11;
+const USER_GEO_CELL_LEVEL = 13;
+
+const ENVELOPE_ID_URL_QUERY_KEY = "eid";
+
+export {
+  NEW_ENVELOPE_STAGE,
+  NEW_ENVELOPE_DEFAULT_CONTENT,
+  BOUNDERY_RADIUS_KM,
+  MIXIN_CONTEXT_PLATFORM_ANDROID,
+  ENVELOPE_MAX_SHARES,
+  ENVELOPE_DECIMAL_PLACES_MAX,
+  MIXIN_OAUTH_PATH,
+  MIXIN_PAY_PATH,
+  LAST_LOCATION_RECORD_KEY,
+  MAP_CENTER_ATOMICITY_LEVEL,
+  MIXIN_USER_PATH,
+  ENVELOPE_PAYMENT,
+  USER_GEO_CELL_LEVEL,
+  MIXIN_COIN_ICON_DEFAULT,
+  ENVELOPE_ID_URL_QUERY_KEY,
+};

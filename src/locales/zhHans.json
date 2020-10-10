@@ -1,0 +1,126 @@
+{
+  "Unexpected error": "服务异常，请重试",
+  "Internal server error": "服务异常，请重试",
+  "Bad Request": "请求参数异常",
+  "Unauthorized": "没有权限",
+  "Too far away from you": "红包离您太远了",
+  "Malformed envelope data": "数据无效，请检查输入",
+  "Grab too frequently": "操作太频繁，30 分钟内只有 1 次抢红包机会",
+  "Move too fast": "您短时间内移动了太长距离，暂时无法抢红包",
+  "Grabbed already": "您已经抢过这个红包",
+  "No left shares": "此红包已经被抢光",
+  "Envelope not available": "不能抢这个红包",
+  "Envelope is busy": "此红包繁忙，请重试",
+  "Wait for proxy account to be generated": "正在创建代理账户，请稍后",
+  "Still Within Reserved Interval": "新创建的红包 24 小时内不能撤回",
+  "Nearby BTC": "附近的比特币",
+  "Logining In": "正在登陆",
+  "My Info": "我的",
+  "Created Envelopes": "发过的红包",
+  "Grabbed Envelopes": "抢到的红包",
+  "New Envelope": "发红包",
+  "Transparency": "透明验证",
+  "FAQ": "常见问题",
+  "Edit": "编辑",
+  "coins": "币",
+  "Fill out the form": "请填写以下内容",
+  "Copied": "已复制",
+  "rulerInstruction": "圆圈半径 {radius} 公里",
+  "welcomeEnvelope": {
+    "title": "点一下，领 BTC",
+    "content": "测试红包，点一下就得 {amount} BTC"
+  },
+  "Grab": "领取",
+  "Grabbed": "已领取",
+  "Long press the map to place a new envelope": "长按地图，投放红包",
+  "Edit your new envelope": "编辑红包内容",
+  "fail2locate": {
+    "basic": "定位失败，请检查系统设置",
+    "pay": "需要定位才能创建红包",
+    "grab": "需要定位才能抢红包",
+    "placeNewEnvelope": "投放红包前需要定位",
+    "activelyLocate": "定位失败，请重试"
+  },
+  "locationMarker:people": "地图中的人物代表您的位置",
+  "locationAction": "定位",
+  "newEnvelope": {
+    "introduceFAB": "点击右下角 + 号，创建红包",
+    "distanceLimit": "您可以在附近 {radius} 公里内投放红包",
+    "guideEditTitle": "等待创建",
+    "guideEdit": "拖拽调整位置，或开始编辑内容。",
+    "dialogTitle": "编辑红包",
+    "coinType": {
+      "label": "币种",
+      "msg": "抢红包的人将收到 {coin}"
+    },
+    "coinAmount": {
+      "label": "总额",
+      "msg": "一共发多少 {coin}，最小值：{min}",
+      "minLimit": "必须大于 {min}",
+      "decimalPlaces": "小数点位数必须不能大于 {places}"
+    },
+    "peopleCount": { "label": "人数", "msg": "多少人可以抢" },
+    "displayInfo": {
+      "label": "展示信息",
+      "msg": "如何展示自己",
+      "basicOpt": "基本信息：Mixin ID，昵称，头像",
+      "noneOpt": "匿名"
+    },
+    "message": {
+      "label": "红包内容",
+      "msg": "说点什么吧"
+    },
+    "previewBtn": "保存并预览",
+    "payBtn": "支付",
+    "success": "创建成功，红包将很快出现在地图上"
+  },
+  "envelope": {
+    "title": "红包来自",
+    "anonymous": "Nearby BTC User",
+    "defaultMessage": "Ta 什么都没说"
+  },
+  "grabEnvelope": {
+    "success": "得到 {coin}"
+  },
+  "grabbed": {
+    "total": "总计",
+    "MAP": "地图",
+    "LINK": "链接"
+  },
+  "created": {
+    "amount": "总额",
+    "left": "剩余",
+    "status": "状态",
+    "share": "分享",
+    "recall": "撤回",
+    "INITIALIZED": "未支付",
+    "LISTING": "展示中",
+    "DONE": "抢光光",
+    "RECALLING": "撤回中",
+    "RECALLED": "已撤回",
+    "PAY_EXPIRED": "未支付",
+    "payment": "我已支付",
+    "detail": "详情",
+    "doubleCheck": "检查",
+    "recalling": "撤回中，结果稍后发送给您"
+  },
+  "transparency": {
+    "directions": "说明",
+    "content0": "您创建的红包，全部由代理账户保管和处理。检查代理账户，就可以得到所有的红包发送记录。",
+    "content1": "如果您需要读取相关信息，可以点击下方 + 号，得到访问 Mixin API 的权限，进而审阅底层数据。具体使用方法请询 Mixin 开发文档。",
+    "content2": "备注：密钥有效期 90 天；snapshots API 不加任何参数。",
+    "assets": "检查账户余额",
+    "snapshots": "检查转账记录",
+    "copyFailed": "复制失败"
+  },
+  "firstGuide": {
+    "title": "领取成功",
+    "guide": "你可以在你的城市附近寻找其他 BTC。点击定位，达到你的城市。",
+    "cancel": "取消",
+    "locate": "定位",
+    "located": "定位成功，移动、缩放地图，自动搜索红包",
+    "locationFailed": "定位失败，您可以搜索红包，但不能抢"
+  },
+  "developing": "开发中，暂不可用",
+  "defaultPlace": "地球"
+}

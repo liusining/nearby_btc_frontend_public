@@ -1,0 +1,103 @@
+{
+  "Grab too frequently": "You can only grab ONE envelope every 30 mins",
+  "Move too fast": "Seems you have moved a long distance in a short period, cannot grab envelopes now",
+  "Envelope is busy": "The envelope is busy. Try again later.",
+  "Still Within Reserved Interval": "New envelopes cannot be recalled within the first 24 hours",
+  "rulerInstruction": "Radius of the circle is {radius} km",
+  "welcomeEnvelope": {
+    "title": "Click to grab BTC",
+    "content": "Try this envelope. You'll get {amount} BTC after a single click."
+  },
+  "fail2locate": {
+    "basic": "Cannot find your location. Please check System Settings.",
+    "pay": "To create an envelope, we need to use your location",
+    "grab": "Location is required before grabbing an envelope",
+    "placeNewEnvelope": "To place a new envelope, we have to use your location",
+    "activelyLocate": "Cannot find your location. Please retry."
+  },
+  "locationMarker:people": "The people image represents your location",
+  "locationAction": "Location",
+  "newEnvelope": {
+    "introduceFAB": "Click '+' at the right bottom to create a new envelope",
+    "distanceLimit": "Your new envelope can be placed within {radius} km from here",
+    "guideEditTitle": "Unsaved Envelope",
+    "guideEdit": "Drag to move, or start to edit its content",
+    "dialogTitle": "New Envelope",
+    "coinType": {
+      "label": "Coin Type",
+      "msg": "People will receive {coin}"
+    },
+    "coinAmount": {
+      "label": "Total Amount",
+      "msg": "How many {coin} in this envelope. Minimum: {min}.",
+      "minLimit": "Must be greater than {min}",
+      "decimalPlaces": "Decimal places shouldn't be greater than {places}"
+    },
+    "peopleCount": {
+      "label": "People",
+      "msg": "How many people can grab a share?"
+    },
+    "displayInfo": {
+      "label": "Display",
+      "msg": "Let people know about you",
+      "basicOpt": "Basic Info: Mixin ID, Name, Avatar",
+      "noneOpt": "Anonymous"
+    },
+    "message": {
+      "label": "Message",
+      "msg": "Say something"
+    },
+    "previewBtn": "Save and Priview",
+    "payBtn": "Pay",
+    "success": "Yeah! Your envelope will appear on the map soon"
+  },
+  "envelope": {
+    "title": "Envelope from",
+    "anonymous": "NearbyBTC User",
+    "defaultMessage": "He/She says nothing."
+  },
+  "grabEnvelope": {
+    "success": "You get {coin}"
+  },
+  "grabbed": {
+    "total": "Total",
+    "MAP": "Map",
+    "LINK": "Link"
+  },
+  "created": {
+    "amount": "Amount",
+    "left": "Left",
+    "status": "Status",
+    "share": "Share",
+    "recall": "Recall",
+    "INITIALIZED": "Unpaid",
+    "LISTING": "Listing",
+    "DONE": "Done",
+    "RECALLING": "Recalling",
+    "RECALLED": "Recalled",
+    "PAY_EXPIRED": "Unpaid",
+    "payment": "Confirm Payment",
+    "detail": "Detail",
+    "doubleCheck": "Double Check",
+    "recalling": "Recalling. Result will be sent to you later."
+  },
+  "transparency": {
+    "directions": "Directions",
+    "content0": "The envelopes you created，are managed by a proxy account. Reading the account, you will find all underlying transactions.",
+    "content1": "If you need to access those information，click + signs to get tokens for Mixin APIs. Refer Mixin Developer Document for how to use the tokens.",
+    "content2": "Besides, tokens are valid in 90 days; do not use URL parameters in the snapshots API.",
+    "assets": "Read Account Balance",
+    "snapshots": "Read Transactions",
+    "copyFailed": "Failed to copy the token"
+  },
+  "firstGuide": {
+    "title": "You get it",
+    "guide": "You can look for other BTC near your city. So, locate yourself on the map.",
+    "cancel": "Cancel",
+    "locate": "Locate",
+    "located": "Going to your city. Zoom and move the map to find envelopes.",
+    "locationFailed": "Cannot find your location. You can still search envelopes, but not grab them."
+  },
+  "developing": "Developing, not available temporarily",
+  "defaultPlace": "Earth"
+}
